@@ -59,6 +59,7 @@ Passing anything other than a string is an error.
 - **isAlphanumeric(str [, locale])** - check if the string contains only letters and numbers. Locale is one of `['ar', 'ar-AE', 'ar-BH', 'ar-DZ', 'ar-EG', 'ar-IQ', 'ar-JO', 'ar-KW', 'ar-LB', 'ar-LY', 'ar-MA', 'ar-QA', 'ar-QM', 'ar-SA', 'ar-SD', 'ar-SY', 'ar-TN', 'ar-YE', 'cs-CZ', 'da-DK', 'de-DE', 'en-AU', 'en-GB', 'en-HK', 'en-IN', 'en-NZ', 'en-US', 'en-ZA', 'en-ZM', 'es-ES', 'fr-FR', 'fr-BE', 'hu-HU', 'nl-BE', 'nl-NL', 'pl-PL', 'pt-BR', 'pt-PT', 'ru-RU', 'sr-RS', 'sr-RS@latin', 'tr-TR', 'uk-UA']`) and defaults to `en-US`.
 - **isAscii(str)** - check if the string contains ASCII chars only.
 - **isBase64(str)** - check if a string is base64 encoded.
+- **isBCBP(str)** - check if the string is an [BCBP](https://en.wikipedia.org/wiki/Bar-coded_boarding_pass).
 - **isBefore(str [, date])** - check if the string is a date that's before the specified date.
 - **isBoolean(str)** - check if a string is a boolean.
 - **isByteLength(str, options)** - check if the string's length (in UTF-8 bytes) falls in a range. `options` is an object which defaults to `{min:0, max: undefined}`.
